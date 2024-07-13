@@ -1,0 +1,4 @@
+// Liens Utiles : Liens vers les pages importantes du site.
+// Réseaux Sociaux : Icônes avec des liens vers les pages sociales du club (Facebook, Instagram, etc.).
+// Copyright : "© [Année] [Nom du Club de Karaté]. Tous droits réservés."
+

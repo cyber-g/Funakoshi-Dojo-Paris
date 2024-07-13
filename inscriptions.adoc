@@ -1,0 +1,11 @@
+---
+title: Inscriptions
+in_main_toc: true
+---
+
+== Rejoignez-nous !
+
+// Informations sur la façon de s'inscrire, les tarifs, et les périodes d'inscription. 
+
+// Bouton : "Inscrivez-vous Maintenant"
+

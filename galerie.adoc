@@ -1,0 +1,4 @@
+= Galerie
+
+// Galerie d'images : Carousel ou grille d'images montrant les activités du club.
+

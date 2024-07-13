@@ -1,0 +1,6 @@
+= Pour nous contacter
+
+// Formulaire de Contact : Champs pour nom, email, message.
+// Coordonnées : Adresse du dojo, numéro de téléphone, email.
+// Carte : Intégration d'une carte Google Maps avec la localisation du dojo.
+

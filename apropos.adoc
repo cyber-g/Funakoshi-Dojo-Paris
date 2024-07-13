@@ -1,0 +1,12 @@
+---
+title: Qui Sommes-Nous ?
+in__main_toc: true
+---
+
+== Qui Sommes-Nous ?
+
+//  Une brève présentation du club, de son histoire, de ses valeurs, et de ses instructeurs principaux.
+
+Le Funakoshi Dojo Paris est une association sportive de karaté traditionnel Shotokan, affiliée à la Fédération Française de Karaté et Disciplines Associées (FFKDA). Nous proposons des cours de karaté pour enfants, adolescents et adultes, du débutant au confirmé, dans le 12ème arrondissement de Paris.
+
+Notre équipe pédagogique est composée de professeurs diplômés d'État, passionnés par la transmission des valeurs du karaté et du Budo. Nous mettons un point d'honneur à accompagner chaque pratiquant dans son évolution, en lui proposant un enseignement de qualité, dans une ambiance conviviale et bienveillante.
