@@ -1,7 +1,7 @@
-title: Jekyll AsciiDoc Quickstart
+title: Funakoshi Dojo Paris
 # uncomment baseurl if you want to publish the site to a subfolder
 #baseurl: /blog
-description: The Jekyll AsciiDoc Quickstart project is a leg-up in starting your own website hosted on GitHub with content based in AsciiDoc.
+description: Funakoshi Dojo Paris est un club de karaté traditionnel Shotokan situé à Paris 12ème. Cours pour enfants, ados et adultes.
 exclude:
 - LICENSE
 - README.adoc
@@ -17,3 +17,4 @@ asciidoctor:
     idseparator: _
     stylesdir: css
     source-highlighter: coderay
+masthead_banner: assets/karate_billboard_banner.png
