@@ -1,0 +1,12 @@
+navbar_list_title: ACME Documentation
+
+navbar_items:
+
+- title: A propos
+  url: apropos.html
+
+- title: Contact
+  url: contact.html
+
+- title: Galerie
+  url: galerie.html
