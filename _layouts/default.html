@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{page.title}}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="author" content="Your name goes here">
-    <meta name="copyright" content="Maybe consider a Creative Commons license">
+    <meta name="author" content="Germain PHAM">
+    <meta name="copyright" content="Copyright">
     <link rel="stylesheet" href="{{page.root}}css/foundation.css">
     <style>pre > code { border: 0 }</style>
     <link rel="stylesheet" href="{{page.root}}css/font-awesome.css">
@@ -17,6 +17,8 @@
     <script src="{{page.root}}js/vendor/modernizr.js"></script>
     <script src="{{page.root}}js/toc.js"></script>
 </head>
+
+
 <body>
 
 
@@ -30,13 +32,32 @@
                 <a href="{{page.root}}">{{site.title}}</a>
             </h1>
         </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        <li class="toggle-topbar menu-icon">
+            <a href="#"><span>Menu</span></a>
+        </li>
+    </ul>
+    <ul>
+        {% for item in site.data.navbar.navbar_items %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
     </ul>
 </nav>
 <!-- End Nav -->
 
 
 <!-- Main Page Content and Sidebar -->
+
+{% if page.masthead == true %}
+<header class="masthead">
+  <div class="page-wrapper" style="">
+    <a href="/" class="site-logo" rel="home" title="{{ site.title }}">
+      <img src="{{ site.masthead_banner }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
+    </a>
+  </div>
+</header>
+{% else %}
+<p></p>
+{% endif %}
 
 <div class="row">
 
