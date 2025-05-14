@@ -41,6 +41,22 @@ If you would like to work offline first, consider checking your `Gemfile` for th
 If the `jekyll serve` command fails, it likely means you don't have the necessary gems installed
 You can check whether the `jekyll` gem is installed locally by running `gem list --local | grep "jekyll"`.
 
+Note to myself (GP): I have to start the server with `bundle exec jekyll serve` to get the server started. 
+If I just run `jekyll serve`, I get the error:
+```
+$HOME/.ruby_gems_perso/gems/bundler-2.5.15/lib/bundler/runtime.rb:304:in `check_for_activated_spec!': You have already activated rake 13.0.6, but your Gemfile requires rake 10.5.0. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+        from $HOME/.ruby_gems_perso/gems/bundler-2.5.15/lib/bundler/runtime.rb:25:in `block in setup'
+        from $HOME/.ruby_gems_perso/gems/bundler-2.5.15/lib/bundler/spec_set.rb:191:in `each'
+        from $HOME/.ruby_gems_perso/gems/bundler-2.5.15/lib/bundler/spec_set.rb:191:in `each'
+        from $HOME/.ruby_gems_perso/gems/bundler-2.5.15/lib/bundler/runtime.rb:24:in `map'
+        from $HOME/.ruby_gems_perso/gems/bundler-2.5.15/lib/bundler/runtime.rb:24:in `setup'
+        from $HOME/.ruby_gems_perso/gems/bundler-2.5.15/lib/bundler.rb:164:in `setup'
+        from $HOME/.ruby_gems_perso/gems/jekyll-4.4.1/lib/jekyll/plugin_manager.rb:52:in `require_from_bundler'
+        from $HOME/.ruby_gems_perso/gems/jekyll-4.4.1/exe/jekyll:11:in `<top (required)>'
+        from $HOME/.ruby_gems_perso//bin/jekyll:25:in `load'
+        from $HOME/.ruby_gems_perso//bin/jekyll:25:in `<main>'
+```
+
 == GitHub Pages and AsciiDoc
 
 GitHub Pages does not (yet) whitelist the jekyll-asciidoc plug-in, so you can not write `.adoc` posts and have them instantly published like Markdown posts do.
